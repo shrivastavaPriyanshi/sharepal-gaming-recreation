@@ -4,7 +4,7 @@ A responsive frontend recreation of SharePal's **Gaming Gadgets on Rent** page f
 
 ## 🔗 Links
 
-- **Live Demo:** Add your deployed URL here
+- **Live Demo:** https://sharepal-gaming-recreation.vercel.app/
 - **Reference Page:** https://sharepal.in/bangalore/gaming-gadgets-on-rent
 
 ## ✨ Features
