@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --sharepal-teal: #00B67A;
+  --sharepal-teal-dark: #009664;
+  --sharepal-teal-light: #E6F8F2;
+  --sharepal-dark: #0F172A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F8FAFC;
+  color: #1E293B;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar for horizontal categories */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* SharePal primary button glow & transition */
+.bg-sharepal-teal {
+  background-color: #00B67A;
+}
+
+.bg-sharepal-teal:hover {
+  background-color: #009D69;
+}
+
+.text-sharepal-teal {
+  color: #00B67A;
+}
+
+.border-sharepal-teal {
+  border-color: #00B67A;
+}
+
+.bg-sharepal-light {
+  background-color: #EBFBF5;
+}
+
+/* Card hover animation */
+.product-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.04);
+}
