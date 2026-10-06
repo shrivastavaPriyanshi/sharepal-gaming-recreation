@@ -1,16 +1,106 @@
-# React + Vite
+# SharePal Gaming Gadgets — Frontend Recreation
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive frontend recreation of SharePal's **Gaming Gadgets on Rent** page for Bangalore, created as a frontend development assignment.
 
-Currently, two official plugins are available:
+## 🔗 Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live Demo:** Add your deployed URL here
+- **Reference Page:** https://sharepal.in/bangalore/gaming-gadgets-on-rent
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- SharePal-inspired responsive navigation
+- Gaming gadgets rental hero section
+- Rental period and date selection
+- Gaming category filtering
+- Interactive product cards
+- Wishlist interactions
+- FAQ accordion
+- Customer testimonials
+- Impact statistics section
+- Responsive design for desktop, tablet, and mobile
+- Smooth hover states and UI transitions
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+- React Icons
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── CartDrawer.jsx
+│   ├── CategoryLinks.jsx
+│   ├── CategoryTabs.jsx
+│   ├── DateSelectorModal.jsx
+│   ├── FaqAccordion.jsx
+│   ├── Footer.jsx
+│   ├── HeroSection.jsx
+│   ├── ImpactStats.jsx
+│   ├── Navbar.jsx
+│   ├── ProductCard.jsx
+│   ├── ProductGrid.jsx
+│   └── Testimonials.jsx
+│
+├── data/
+│   ├── categories.js
+│   ├── categoryLinks.js
+│   ├── faqs.js
+│   ├── products.js
+│   └── testimonials.js
+│
+├── assets/
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shrivastavaPriyanshi/sharepal-gaming-recreation.git
+```
+
+Navigate to the project:
+
+```bash
+cd sharepal-gaming-recreation
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local development URL shown in the terminal.
+
+## 📦 Production Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## 💡 Design & UX Improvements
+
+The implementation follows SharePal's visual language while adding interactive elements to improve the browsing experience, including category filtering, rental-date selection, wishlist interactions, and an expandable FAQ section.
+
+## 📌 Scope
+
+This project is a frontend recreation created for demonstration and evaluation purposes. It does not implement real authentication, payments, bookings, or backend functionality.
